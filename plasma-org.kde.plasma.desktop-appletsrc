@@ -6,6 +6,32 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
+[Containments][1]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=e8855337-7be5-4579-8555-7f24b7f921c5
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][1][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][1][Configuration]
+PreloadWeight=42
+
+[Containments][1][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=576
+
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/PAKOSWALL14.jpg
+
+
 [Containments][29]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
@@ -26,18 +52,20 @@ PreloadWeight=42
 
 [Containments][29][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=466
-ToolBoxButtonY=46
+ToolBoxButtonX=576
 
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/PAKOSWALL12.jpg
+Image=file:///usr/share/wallpapers/PAKOSWALL14.jpg
+
+
+
 
 [Containments][30]
 activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -97,7 +125,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][30][Applets][34][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 SystrayContainmentId=35
 immutability=1
 
@@ -139,7 +167,7 @@ immutability=1
 PreloadWeight=52
 
 [Containments][30][ConfigDialog]
-DialogHeight=78
+DialogHeight=84
 DialogWidth=1920
 
 [Containments][30][Configuration]
@@ -153,8 +181,10 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][35][Applets][36]
@@ -176,6 +206,9 @@ plugin=org.kde.plasma.clipboard
 [Containments][35][Applets][40]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][35][Applets][40][Configuration]
+PreloadWeight=55
 
 [Containments][35][Applets][41]
 immutability=1
@@ -212,10 +245,13 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][35][Applets][50][Configuration]
+PreloadWeight=55
+
 [Containments][35][General]
 extraItems=org.kde.plasma.mediacontroller_plus,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
 knownItems=org.kde.plasma.mediacontroller_plus,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/etc,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/PAKOS,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/Layan-kde,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/New Folder (1),0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/rebornos-kde-skel,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/plasmashellrc,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/New Folder,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/1,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/xero_iso,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/xero-kde-config,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/2,0,e8855337-7be5-4579-8555-7f24b7f921c5
+screenMapping=desktop:/plasmashellrc,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/Layan-kde,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/xero-kde-config,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/New Folder (1),0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/2,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/rebornos-kde-skel,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/etc,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/New Folder,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/1,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/xero_iso,0,e8855337-7be5-4579-8555-7f24b7f921c5,desktop:/PAKOS,0,e8855337-7be5-4579-8555-7f24b7f921c5
