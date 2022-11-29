@@ -2,7 +2,7 @@
 pkgname=kde-setting
 _destname1="/"
 pkgver=1.1
-pkgrel=1
+pkgrel=2
 pkgdesc="KDE RICE @NORDIC FOR PAKOS"
 arch=('any')
 url="https://github.com/aamirali51/"
